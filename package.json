@@ -2,7 +2,7 @@
   "title": "Periodic Component Static List",
   "name": "periodic.component-static.media-list-view",
   "description": "standard list view component, no js",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "main": "index.js",
   "engines": {
     "node": ">=0.10.x"

@@ -57,7 +57,7 @@
 			<div id="<%= config.html.dom_id %>" class="<%= config.html.dom_id %> p_cs_mlv-id">
 				<header><%= config.html.dom_title %></header>
 					<section id="<%= config.html.dom_id %>-section" class="p_cs_lv-section <%= config.html.dom_id %>">
-						<% if(layout.engine==="bootstrap"){%>
+						<% if(layout && layout.engine==="bootstrap"){%>
 							<ul class="row">
 								<% for(x in content){ %>
 									<li class="<%- getBootstrapGrid(layout.grid) %>">
