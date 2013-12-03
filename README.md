@@ -1,4 +1,3 @@
-component-static.media-list-view
-================================
+# component-static.media-list-view
 
-standard media list view component, no js
+An on scroll effect template that animates the sides of sections once they are in the viewport
